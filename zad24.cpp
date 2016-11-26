@@ -88,4 +88,5 @@ void zad24() {
                                      }
     };
     modyfikuj(arr, 3, "testowy napis", 2);
+    modyfikuj(arr, 3, "TESTOWY NAPIS", 2);
 }
