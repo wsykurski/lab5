@@ -69,23 +69,25 @@ char* fun2(char *string1, int i)
 
 void zad24() {
     cout << "Zadanie 24";
-    char* (* arr [])(char*, int) = { odwroc,
-                                     male,
-                                     [] (char* str, int n) -> char*
-                                     {
-                                         int diff = (int)'A' - (int)'a';
-                                         char *result = new char[getSize(str)];
-                                         char *temp = result;
-                                         while(*str){
-                                             if((int)*str <= (int)'z' && (int)*str >= (int)'a' && n-- !=0)
-                                                 *temp = *str + diff;
-                                             else
-                                                 *temp = *str;
-                                             temp++;
-                                             str++;
-                                         }
-                                         return result;
-                                     }
+    char* (* arr [])(char*, int) =
+    {
+         odwroc,
+         male,
+         [] (char* str, int n) -> char*
+         {
+             int diff = (int)'A' - (int)'a';
+             char *result = new char[getSize(str)];
+             char *temp = result;
+             while(*str){
+                 if((int)*str <= (int)'z' && (int)*str >= (int)'a' && n-- !=0)
+                     *temp = *str + diff;
+                 else
+                     *temp = *str;
+                 temp++;
+                 str++;
+             }
+             return result;
+         }
     };
     modyfikuj(arr, 3, "testowy napis", 2);
     modyfikuj(arr, 3, "TESTOWY NAPIS", 2);
