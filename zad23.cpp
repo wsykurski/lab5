@@ -3,7 +3,7 @@
 //
 #include "zad23.h"
 
-template <class TYP>
+template <typename TYP>
 int binarySearch(TYP *arr, TYP value, int begin, int end) {
     while (begin <= end) {
         int mid = (begin + end)/2;

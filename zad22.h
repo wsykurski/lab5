@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-template <class TYP>
+template <typename TYP>
 void min_max(TYP* ,int , bool (*)(TYP, TYP));
 
 void zad22();

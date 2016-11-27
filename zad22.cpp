@@ -3,18 +3,21 @@
 //
 
 #include "zad22.h"
+using namespace std;
 
-bool mniejsze(int a, int b)
+template <typename TYP>
+bool mniejsze(TYP a, TYP b)
 {
     return a < b;
 }
 
-bool wieksze(int a, int b)
+template <typename TYP>
+bool wieksze(TYP a, TYP b)
 {
     return a > b;
 }
 
-template <class TYP>
+template <typename TYP>
 void min_max(TYP * arr, int size, bool (*fun)(TYP, TYP)) {
     TYP *_end = arr + size;
     TYP *temp = arr;
@@ -29,15 +32,26 @@ void min_max(TYP * arr, int size, bool (*fun)(TYP, TYP)) {
 
 void zad22() {
     int tab[] = {1, 2, 3, 4, -1, -6, 10};
-    double tab_d[] = {1, 2, 3, 4, -1, -6, 10};
+    double tab_d[] = {0.1, 8.2, -3, 2.24, -1, -6.3, 9.1};
 
     cout << "Zadanie 22:" << endl;
-    bool (*p)(int, int) ;
+    bool (*p_i)(int, int) ;
+    cout << "Sprawdzanie dla tablicy int:" << endl;
     cout << "Najmniejsza wartosc:" << endl;
-    p = mniejsze;
-    min_max(tab, 7, p);
+    p_i = mniejsze;
+    min_max(tab, 7, p_i);
 
     cout << "Najwieksza wartosc:" << endl;
-    p = wieksze;
-    min_max(tab, 7, p);
+    p_i = wieksze;
+    min_max(tab, 7, p_i);
+
+    cout << "Sprawdzanie dla tablicy double:" << endl;
+    cout << "Najmniejsza wartosc:" << endl;
+    bool (*p_d)(double, double) ;
+    p_d = mniejsze;
+    min_max(tab_d, 7, p_d);
+
+    cout << "Najwieksza wartosc:" << endl;
+    p_d = wieksze;
+    min_max(tab_d, 7, p_d);
 }

@@ -12,13 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1db91629-ec2d-4500-91a3-281c64571e6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zad23.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zad23.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lab5.iml" afterPath="$PROJECT_DIR$/.idea/lab5.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zad24.cpp" afterPath="$PROJECT_DIR$/zad24.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zad22.cpp" afterPath="$PROJECT_DIR$/zad22.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zad22.h" afterPath="$PROJECT_DIR$/zad22.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zad23.cpp" afterPath="$PROJECT_DIR$/zad23.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zad23.h" afterPath="$PROJECT_DIR$/zad23.h" />
     </list>
     <ignored path="lab5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,9 +49,11 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="162">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,30 +71,32 @@
       <file leaf-file-name="zad21.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zad21.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="144">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zad22.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="zad22.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zad22.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#171#182#0" expanded="true" />
+                <element signature="e#91#105#0" expanded="true" />
+                <element signature="e#166#180#0" expanded="true" />
+                <element signature="e#240#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zad24.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zad24.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zad24.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -105,11 +107,9 @@
       <file leaf-file-name="zad23.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zad23.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="e#69#80#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,10 +118,8 @@
         <entry file="file://$PROJECT_DIR$/zad23.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="e#135#146#0" expanded="true" />
-              </folding>
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,10 +137,10 @@
       <file leaf-file-name="zad22.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zad22.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="234">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <element signature="e#135#146#0" expanded="true" />
+                <element signature="e#135#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,15 +157,15 @@
         <option value="$PROJECT_DIR$/zad21.h" />
         <option value="$PROJECT_DIR$/zad21.cpp" />
         <option value="$PROJECT_DIR$/lab22.h" />
-        <option value="$PROJECT_DIR$/zad22.h" />
-        <option value="$PROJECT_DIR$/zad22.cpp" />
         <option value="$PROJECT_DIR$/zad24.h.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/zad24.h" />
         <option value="$PROJECT_DIR$/zad24.cpp" />
         <option value="$PROJECT_DIR$/zad23.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/zad23.cpp" />
+        <option value="$PROJECT_DIR$/zad22.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/zad22.cpp" />
       </list>
     </option>
   </component>
@@ -426,12 +424,12 @@
       <workItem from="1480162515712" duration="2285000" />
       <workItem from="1480181796078" duration="1801000" />
       <workItem from="1480192631313" duration="9059000" />
-      <workItem from="1480228777304" duration="1859000" />
+      <workItem from="1480228777304" duration="2952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17326000" />
+    <option name="totallyTimeSpent" value="18419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="768" extended-state="0" />
@@ -443,7 +441,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25705793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17236255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -487,7 +485,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,7 +512,9 @@
         <state relative-caret-position="342">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
-            <element signature="e#171#182#0" expanded="true" />
+            <element signature="e#91#105#0" expanded="true" />
+            <element signature="e#166#180#0" expanded="true" />
+            <element signature="e#240#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -540,7 +542,7 @@
         <state relative-caret-position="198">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
-            <element signature="e#135#146#0" expanded="true" />
+            <element signature="e#135#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -557,7 +559,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,7 +586,9 @@
         <state relative-caret-position="288">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <element signature="e#171#182#0" expanded="true" />
+            <element signature="e#91#105#0" expanded="true" />
+            <element signature="e#166#180#0" expanded="true" />
+            <element signature="e#240#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,7 +616,7 @@
         <state relative-caret-position="198">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
-            <element signature="e#135#146#0" expanded="true" />
+            <element signature="e#135#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,7 +633,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -659,7 +667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +694,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#171#182#0" expanded="true" />
+            <element signature="e#91#105#0" expanded="true" />
+            <element signature="e#166#180#0" expanded="true" />
+            <element signature="e#240#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -694,17 +706,7 @@
         <state relative-caret-position="198">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#135#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zad22.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#135#146#0" expanded="true" />
+            <element signature="e#135#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,6 +727,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zad24.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zad21.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zad21.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -733,58 +753,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zad21.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zad23.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#135#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zad22.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#171#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zad23.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="e#69#80#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zad24.cpp">
+    <entry file="file://$PROJECT_DIR$/zad22.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#135#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zad22.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#105#0" expanded="true" />
+            <element signature="e#166#180#0" expanded="true" />
+            <element signature="e#240#254#0" expanded="true" />
           </folding>
         </state>
       </provider>

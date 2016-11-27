@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-template <class TYP>
+template <typename TYP>
 int binarySearch(TYP *arr, TYP value, int begin, int end);
 
 void zad23();
