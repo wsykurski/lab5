@@ -8,7 +8,7 @@ int getSize(const char *str)
     return result;
 }
 
-void modyfikuj(char* (**pointer)(char *string1, int i), int count, char *string, int position) {
+void modyfikuj(char* (**pointer)(char *, int ), int count, char *string, int position) {
     char *temp;
     int i = 0;
     while (count-- > 0)
@@ -68,27 +68,27 @@ char* fun2(char *string1, int i)
 }
 
 void zad24() {
-    cout << "Zadanie 24";
+    cout << "\nZadanie 24:";
     char* (* arr [])(char*, int) =
-    {
-         odwroc,
-         male,
-         [] (char* str, int n) -> char*
-         {
-             int diff = (int)'A' - (int)'a';
-             char *result = new char[getSize(str)];
-             char *temp = result;
-             while(*str){
-                 if((int)*str <= (int)'z' && (int)*str >= (int)'a' && n-- !=0)
-                     *temp = *str + diff;
-                 else
-                     *temp = *str;
-                 temp++;
-                 str++;
+        {
+             odwroc,
+             male,
+             [] (char* str, int n) -> char*
+             {
+                 int diff = (int)'A' - (int)'a';
+                 char *result = new char[getSize(str)];
+                 char *temp = result;
+                 while(*str){
+                     if((int)*str <= (int)'z' && (int)*str >= (int)'a' && n-- !=0)
+                         *temp = *str + diff;
+                     else
+                         *temp = *str;
+                     temp++;
+                     str++;
+                 }
+                 return result;
              }
-             return result;
-         }
-    };
+        };
     modyfikuj(arr, 3, "testowy napis", 2);
     modyfikuj(arr, 3, "TESTOWY NAPIS", 2);
 }

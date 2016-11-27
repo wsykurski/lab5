@@ -5,8 +5,9 @@
 
 template <typename TYP>
 int binarySearch(TYP *arr, TYP value, int begin, int end) {
+    int mid = 0;
     while (begin <= end) {
-        int mid = (begin + end)/2;
+        mid = (begin + end)/2;
         if (arr[mid] == value)
             return mid;
         else
@@ -19,9 +20,10 @@ int binarySearch(TYP *arr, TYP value, int begin, int end) {
 }
 
 void zad23() {
-    int test_int[] = { 1, 10, -1, 3, 5, 8, 9};
-    double test_double[] = { 1, 10, -1.3, 3, 5.1, 8.2, 9};
+    int test_int[] = { 1, 10, -1, 3, 5, 8, 9 };
+    double test_double[] = { 1, 10, -1.3, 3, 5.1, 8.2, 9 };
 
+    cout << "\nZadanie 23:" << endl;
     cout << "Szukam liczby 3 w tablicy int:" << endl;
     cout << "Pozycja to: " << binarySearch(test_int, 3, 0, 6) << endl;
     cout << "Szukam liczby 11 w tablicy int:" << endl;

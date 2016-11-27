@@ -14,7 +14,7 @@ void readinput() {
 }
 
 void zad21() {
-    cout << "Zadanie 21 " <<endl;
+    cout << "\nZadanie 21 " <<endl;
     cout << "Zacznij wpiswac: " <<endl;
     readinput();
 

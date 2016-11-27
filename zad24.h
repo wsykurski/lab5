@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void modyfikuj(char* (**pointer)(char *string1, int i), int, char *, int);
+void modyfikuj(char* (**pointer)(char *, int), int, char *, int);
 void zad24();
 
 #endif //LAB5_ZAD24_H_H

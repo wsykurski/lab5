@@ -34,7 +34,7 @@ void zad22() {
     int tab[] = {1, 2, 3, 4, -1, -6, 10};
     double tab_d[] = {0.1, 8.2, -3, 2.24, -1, -6.3, 9.1};
 
-    cout << "Zadanie 22:" << endl;
+    cout << "\nZadanie 22:" << endl;
     bool (*p_i)(int, int) ;
     cout << "Sprawdzanie dla tablicy int:" << endl;
     cout << "Najmniejsza wartosc:" << endl;
