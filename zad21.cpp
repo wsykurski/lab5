@@ -2,6 +2,7 @@
 // Created by wojtek on 26.11.16.
 //
 #include "zad21.h"
+using namespace std;
 
 void readinput() {
     {

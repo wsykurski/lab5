@@ -10,11 +10,11 @@ int getSize(const char *str)
 
 void modyfikuj(char* (**pointer)(char *, int ), int count, char *string, int position) {
     char *temp;
-    int i = 0;
     while (count-- > 0)
     {
         cout << "\nWywoluje funckje przez wskaźnik" << endl;
-        temp = (pointer[i++])(string, position);
+        // temp = (pointer[i++])(string, position);
+        temp = (*pointer++)(string, position);
         cout << "Wynik:\n" << temp << endl;
     }
 }
